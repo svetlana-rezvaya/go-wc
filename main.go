@@ -6,13 +6,14 @@ import (
 	"io"
 	"log"
 	"os"
+	"unicode"
 	"unicode/utf8"
 )
 
 func countWords(text string) int {
 	spaceCount := 0
 	for _, character := range text {
-		if character == ' ' {
+		if unicode.IsSpace(character) {
 			spaceCount = spaceCount + 1
 		}
 	}
