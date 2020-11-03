@@ -25,7 +25,11 @@ func countWords(text string) int {
 		}
 	}
 
-	wordCount := spaceCount + 1
+	wordCount := spaceCount
+	if wasSpace == false {
+		wordCount = wordCount + 1
+	}
+
 	return wordCount
 }
 
