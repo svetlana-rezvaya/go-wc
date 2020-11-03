@@ -12,9 +12,16 @@ import (
 
 func countWords(text string) int {
 	spaceCount := 0
+	wasSpace := true
 	for _, character := range text {
 		if unicode.IsSpace(character) {
-			spaceCount = spaceCount + 1
+			if wasSpace == false {
+				spaceCount = spaceCount + 1
+			}
+
+			wasSpace = true
+		} else {
+			wasSpace = false
 		}
 	}
 
