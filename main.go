@@ -2,6 +2,7 @@ package main
 
 import (
 	"bufio"
+	"flag"
 	"fmt"
 	"io"
 	"log"
@@ -34,6 +35,8 @@ func countWords(text string) int {
 }
 
 func main() {
+	flag.Parse()
+
 	lineCount := 0
 	wordCount := 0
 	byteCount := 0
