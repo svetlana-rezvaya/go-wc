@@ -56,8 +56,6 @@ func main() {
 		wordCount = wordCount + countWords(line)
 		byteCount = byteCount + len(line)
 		characterCount = characterCount + utf8.RuneCountInString(line)
-
-		fmt.Print("#", line)
 	}
 
 	fmt.Println("amount of lines =", lineCount)
