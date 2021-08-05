@@ -1,6 +1,8 @@
 # go-wc
 
 [![Go Report Card](https://goreportcard.com/badge/github.com/svetlana-rezvaya/go-wc)](https://goreportcard.com/report/github.com/svetlana-rezvaya/go-wc)
+[![Build Status](https://travis-ci.com/svetlana-rezvaya/go-wc.svg?branch=master)](https://travis-ci.com/svetlana-rezvaya/go-wc)
+[![codecov](https://codecov.io/gh/svetlana-rezvaya/go-wc/branch/master/graph/badge.svg)](https://codecov.io/gh/svetlana-rezvaya/go-wc)
 
 The clone of the [Unix wc tool](<https://en.wikipedia.org/wiki/Wc_(Unix)>).
 
