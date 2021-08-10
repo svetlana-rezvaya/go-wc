@@ -38,4 +38,4 @@ amount of characters = 21
 
 The MIT License (MIT)
 
-Copyright &copy; 2020 svetlana-rezvaya
+Copyright &copy; 2021 svetlana-rezvaya
